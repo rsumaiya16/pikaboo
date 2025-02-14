@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Envelope + Letter (Open/Close on Click)</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Add GIF on the left side -->
+        <img src="cute-love.gif" alt="Cute Love GIF" class="love-gif">
+        
+        <div class="envelope-wrapper">
+            <div class="envelope">
+                <div class="letter">
+                    <div class="text">
+                        <strong>Happy Valentine's Day Baby</strong>
+                        <p>
+                            
+                               <!-- Alviii!!!Sorry if I keep cringing you out but I cant help it. All i wanna do is appreciate you.All my life i never did these things for anyone. I never felt like doin them🥹.But you are just too sweeet and  i feeel like giving you the world . Cheesy but isn't that what love should feel like? 😤You probably already know how amazing you are, but I still want to remind you that you are truly the most perfect person I’ve ever met. You’re so calm, mature, and the way you handle things I could never :’’’  No matter what happens, you never lose your temper, never raise your voice at me. You always know how to handle my mood swings, my overthinking without making me feel guilty about it👉🏼👈🏼 You let me be myself, completely, without ever trying to change me. And that means the world to me.Ik it hasnt been much time but still i love you so damn much . Idk if we  ever gonna make it to end or if either of us will change over time. But I don’t want to look back one day and regret not expressing my feelings enough. I love you jaaan 🖤. I know you already know, but I’ll say it again: I’m always here for you. Always. You don’t have to carry everything on your own.My shoulder will always be here for you.🫶🏼 -->
+                               Every day is a special day. It doesn’t matter whether it’s Valentine’s Day or not—I always love you. I’m so happy and blessed to have you in my life, Kotha (my sweet pudding) 🥹🥹. I love your kind and humble attitude. 😚I used to watch anime all day long, but now, all I want is to talk to you. It doesn’t matter whether I have something to say or not—I just love talking to you. 🤭Very few people hold a special place in my heart, and among them, you are one of the most precious. 🥺🥺
+                            </p>
+                    </div>
+                </div>
+            </div>
+            <div class="heart"></div>
+        </div>
+    </div>
+
+    <script>
+        const envelope = document.querySelector('.envelope-wrapper');
+        envelope.addEventListener('click', () => {
+            envelope.classList.toggle('flap');
+        });
+    </script>
+</body>
+</html>

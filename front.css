@@ -1,0 +1,49 @@
+/* Centering everything on the screen */
+body {
+    font-family: Arial, sans-serif;
+    background: #700505a2;
+    margin: 0;
+    height: 100vh; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.container {
+    background: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center; 
+}
+
+
+.cartoon {
+    max-width: 150px; 
+    height: auto;
+    display: block; 
+    margin: 0 auto 20px; 
+}
+
+
+
+button {
+    background: #751e1e;
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #b20d26;
+}
+
+
+#noBtn {
+    position: absolute;
+}
